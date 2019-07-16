@@ -10,6 +10,6 @@ def introduction_with_language_optional(name, language = nil)
   if language == nil
     puts "Hi, my name is #{name} and I am learning to program in Ruby."
   else
-    puts "Hi, my name is #{name} and I am learning to program in #{langauge}.}"
+    puts "Hi, my name is #{name} and I am learning to program in #{language}.}"
   end
 end
